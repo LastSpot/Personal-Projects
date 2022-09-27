@@ -1,0 +1,313 @@
+/* The codes for the scroll bar are from w3schools.com */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* The code for the settings for the links are from w3schools.com */
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #999999;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  top: 18px;
+  left: 0;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 15;
+}
+
+/* Code for the color gradient is from w3schools.com */
+.topBar {
+  display: block;
+  border: 0;
+  background: linear-gradient(to right, #33ccff 20%, #0000ff 100%);
+  word-spacing: 20px;
+  height: 40px;
+  margin: 0;
+}
+
+.topBar li {
+  display: inline-block;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 60px;
+  padding: 0 0 10px 0;
+  text-align: center;
+  letter-spacing: .1em;
+}
+
+.item {
+  position: absolute;
+  top: 30;
+  width: 100%;
+  height: 500px;
+}
+
+.macbook {
+  background-color: #f2f2f2;
+  border: 0;
+  width: 100%;
+  height: 580px;
+  position: absolute;
+}
+
+.macbook h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  top: 10px;
+  left: 38%;
+}
+
+.macbook h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  top: 100px;
+  left: 40%;
+}
+
+.macbook h1,h2 {
+  text-align: center;
+  color: white;
+  position: absolute;
+}
+
+.imac {
+  border: 0;
+  width: 100%;
+  position: absolute;
+  top: 610px;
+  background-color: #f2f2f2;
+  height: 620px;
+  display: block;
+}
+
+.imac h1 {
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#word1,#word2,#word3 {
+  position: absolute;
+  z-index: 10;
+  color: black;
+  font-size: 70px;
+}
+
+#word1 {
+  top: 10px;
+  left: 30px;
+}
+
+#word2 {
+  top: 200px;
+  left: 30px;
+  font-weight: lighter;
+}
+
+#word3 {
+  top: 30px;
+  right: 80px;
+  font-weight: lighter;
+}
+
+.appletv {
+  position: absolute;
+  top: 1240px;
+  z-index: 5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#remote {
+  margin-left: 30px;
+}
+
+#tvPic {
+ margin-right: 30px;
+}
+
+.iphone {
+  position: absolute;
+  top: 1587px;
+  width: 100%;
+  height: 550px;
+}
+
+.iphone h1 {
+  position: absolute;
+  color: white;
+  top: 40px;
+  left: 30px;
+  font-size: 80px;
+}
+
+.iphone h2 {
+  position: absolute;
+  top: 400px;
+  right: 50px;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+#iphonexr {
+  height: 100px;
+  object-fit: cover;
+}
+
+.watch {
+  position: absolute;
+  top: 2147px;
+  display: block;
+  margin: 0 auto;
+  left: 12px;
+  right: 12px;
+}
+
+.watch1 {
+  float: left;
+  margin: 0 10px;
+  overflow: hidden;
+  border: 1px solid #f2f2f2;
+}
+
+.watch1 h1 {
+  position: absolute;
+  top: 280px;
+  left: 50px;
+  color: blue;
+  font-weight: lighter;
+}
+
+.watch2 {
+  float: right;
+  margin: 0 10px;
+  overflow: hidden;
+}
+
+.music {
+  position: absolute;
+  top: 2557px;
+  width: 100%;
+  height: 610px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f2f2f2;
+}
+
+#appleMusic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ipad {
+  position: absolute;
+  top: 3177px;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#appleIpad {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#thinner,#lighter,#power,#more {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#thinner {
+  top: 10px;
+  font-size: 60px;
+  left: 60px;
+}
+
+#lighter {
+  top: 500px;
+  left: 60px;
+  font-size: 60px;
+}
+
+#more{
+  font-size: 60px;
+  top: 150px;
+  right: 150px;
+}
+
+#power {
+  top: 220px;
+  font-size: 60px;
+  right: 60px;
+}
+
+footer {
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 3817px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+hr {
+  width: 90%;
+}
+
+#origin {
+  color: red;
+}
+
+footer a:active {
+  text-decoration: none;
+}
