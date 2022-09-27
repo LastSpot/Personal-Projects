@@ -1,0 +1,78 @@
+/*This is for centering the names of characters, texts, images, videos, and colors of fonts and border. Also, for some, to change the opacity to make it transparent for visual effects.*/
+body {
+    background-image: url(http://papers.co/wallpaper/papers.co-vd85-scifi-web-by-emilwidlund-dark-pattern-abstract-art-29-wallpaper.jpg);
+    width: 80%;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h1, h2, p {
+    color: white;
+}
+.introduction {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.marvelpic img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.content {
+    border: 1px dashed white;
+    padding: 5px;
+    margin: 2px;
+}
+.ironMan2008 {
+    text-align: left;
+}
+.theHulk2008 {
+    text-align: left;
+}
+.end {
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+}
+#captainAmerica {
+    opacity: .3;
+}
+#ironMan {
+    opacity: .4;
+}
+#blackWidow {
+    opacity: .65;
+}
+#theHulk {
+    opacity: 1;
+}
+#blackPanther {
+    opacity: .65;
+}
+#thor {
+    opacity: .4;
+}
+#more {
+    opacity: .3;
+}
+#movieTitle {
+    margin-left: 40px;
+    font-size: 50px;
+}
+#movieDescription {
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+#moviepic {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#movievideo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 700px;
+    height: 400px;
+}
